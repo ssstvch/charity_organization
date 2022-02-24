@@ -1,6 +1,6 @@
 # <center> Team project </center> <center> for a charitable organization </center>
 
-!<center>[viarushka](https://github.com/ssstvch/charity_organization/blob/main/dist/assets/images/logo_for_readme.png)</center>
+!<center>[logo](https://github.com/ssstvch/charity_organization/blob/main/dist/assets/images/logo_for_readme.png)</center>
 
 ## <center> [View demo](https://ssstvch.github.io/charity_organization/) </center>
 
