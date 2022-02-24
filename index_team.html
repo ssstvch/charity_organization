@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="shortcut icon" href="./assets/images/FE_logo.png" type="image/svg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style_team.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Team</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="./index.html">
+                <div class="header_logo">
+                    <img src="./assets/images/FE_logo.png" alt="Logo" class="logo_img">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item header-nav-item">
+                        <a class="nav-link header-nav-link" href="./index.html#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown header-nav-item">
+                        <a class="nav-link header-nav-link" href="./index.html#actions-scroll">Actions</a>
+                        
+                    </li>
+                    <li class="nav-item header-nav-item">
+                        <a class="nav-link header-nav-link" href="./index.html#support">Support</a>
+                    </li>
+                    <li class="nav-item header-nav-item">
+                        <a class="nav-link header-nav-link" href="./index_team.html">Team</a>
+                    </li>
+                    <li class="nav-item header-nav-item">
+                        <a class="nav-link header-nav-link" href="./index.html#contacts">Contacts</a>
+                    </li>
+                </ul>
+                <div class="header-btn-donate btn-donate my-2 my-lg-0">
+                    <a href="https://donorbox.org/floating-eka?default_interval=m" target="_blank" class="btn btn-primary btn-lg btn-header">
+                        <div class="donate_flex">
+                            <div class="donate_img">
+                                <img class="donate" src="./assets/images/donate.png" alt="donate">
+                            </div>
+                            DONATE
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="btn-donate my-2 my-lg-0" id="top">
+        <a href="https://donorbox.org/floating-eka?default_interval=m" class="btn btn-primary btn-lg btn-header">
+            <div class="donate_flex">
+                <div class="donate_img">
+                    <img class="donate" src="./assets/images/donate.png" alt="donate">
+                </div>
+                DONATE
+            </div>
+        </a>
+    </div>
+    <main>
+        <h2>Team</h2>
+        <div class="team-members-container">
+            <div class="team_member">
+                <img src="assets/images/Polina.png" class="roundphoto" alt="">
+                <div class="text_activities">
+                    Polina Shubina
+                    Artistic Director <br>Co-founder and Board Member
+                    <a class="mail" href="mailto:polina@floatingeka.com">polina@floatingeka.com</a>
+                </div>
+            </div>
+            <div class="team_member">
+                <img src="assets/images/Olesya.png" class="roundphoto" alt="">
+                <div class="text_activities">Olesya Radilova
+                    Development Director Co-founder and Board Member
+                    <a class="mail" href="mailto:radilova@floatingeka.com">radilova@floatingeka.com</a>
+                </div>
+            </div>
+            <div class="team_member">
+                <img src="assets/images/Yana.png" class="roundphoto" alt="">
+                <div class="text_activities">Yana Kronevald
+                    SMM Specialist
+                    <a class="mail" href="mailto:yana@floatingeka.com ">yana@floatingeka.com </a>
+                </div>
+            </div>
+            <div class="team_member">
+                <img src="assets/images/Aya.png" class="roundphoto" alt="">
+                <div class="text_activities">Aikokul Ibraeva
+                    SMM Specialist
+                    <a class="mail" href="mailto:aya@floatingeka.com "> aya@floatingeka.com </a>
+                </div>
+            </div>
+            <div class="team_member">
+                <img src="assets/images/Inna.png" class="roundphoto" alt="">
+                <div class="text_activities">Inna Panchkovskaya
+                    Administrative Director
+                </div>
+            </div>
+            <div class="team_member">
+                <img src="assets/images/Mikita.png" class="roundphoto" alt="">
+                <div class="text_activities">Mikita Makayou
+                    Board Member
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-sec-1">
+                <ul class="footer-nav nav flex-column">
+                    <li class="nav-item footer-nav">
+                        <button type="button" class="btn btn-secondary" onclick="slowScroll('#about')">About</button>
+                    </li>
+                    <li class="nav-item footer-nav">
+                            <button type="button" class="btn btn-secondary" onclick="slowScroll('#actions-scroll')">Actions</button>
+                    </li>
+                    <li class="nav-item footer-nav">
+                        <button type="button" class="btn btn-secondary" onclick="slowScroll('#support')">Support</button>
+                    </li>
+                    <li class="nav-item footer-nav">
+                        <a class="btn btn-secondary" href="./index_team.html">Team</a>
+                    </li>
+                    <li class="nav-item footer-nav">
+                        <button type="button" class="btn btn-secondary" onclick="slowScroll('#contacts')">Contacts</button>
+                    </li>
+                </ul>
+                <div class="footer_contacts">
+                    <div class="contacts_social">
+                        <div class="social_youtube">
+                            <a href="https://www.youtube.com/channel/UCnNzziS4VIOIlWplFb_cU2A" class="footer_a"><img class="footer_b" src="./assets/images/youtube.svg" alt="Youtube"></a>
+                        </div>
+                        <div class="social_instagram">
+                            <a href="https://www.instagram.com/floating_eka/" class="footer_a"><img class="footer_b" src="./assets/images/instagram.svg" alt="Instagram"></a>
+                        </div>
+                        <div class="social_facebook">
+                            <a href="https://www.facebook.com/FloatingEKA" class="footer_a"><img class="footer_b" src="./assets/images/facebook.svg" alt="Facebook"></a>
+                        </div>
+                    </div>
+                    <div class="contacts_href">
+                        <p class="href_p"><a href="#" class="href">E-mail: pochta@mail.ru</a></p>
+                        <p class="href_p"><a href="#" class="href">Legal documents</a> </p>
+                        <p class="href_p"><a href="#" class="href">Reports</a></p>
+                        <p class="href_p"><a href="#" class="href">Data processing policy</a></p>
+                        <p class="href_p"><a href="#" class="href">Work with us</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_props">
+                <div class="prop">
+                    ASSOCIATION DATA: <br /> KRS: 0000860488 <br /> REGION: 387594229 <br /> NIP: 7831827651 <br /> Registered: 27.11.2020 <br /> Address: ul. Karola Libelta 1a/2 <br />  61-706 Poznań, Poland
+                </div>
+                <div class="prop">
+                    PAYMENT IN PLN: <br /> IBAN: PL71 2530 0008 2022 1069 2441 0001 (PLN) <br /> SWIFT: NESBPLPW <br /> PAYMENT IN EUR: <br /> IBAN: PL98 1870 1045 2078 1069 2441 0001
+                </div>
+                <div class="prop">
+                    BANK ACCOUNT: <br /> Nest Bank SA <br /> Address: ul. Wołoska 24, 02-675 Warszawa
+                </div>
+            </div>
+            <div class="footer_logo">
+                <div class="logo_flogo">
+                    <a href="#wrapper" onclick="slowScroll('#wrapper')"><img src="./assets/images/FE_logo.png" alt="Logo" class="flogo_fimg"></a>
+                </div>
+                <div class="logo_text">©2021 FloatingEKA</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+    <script>
+        function slowScroll(id) {
+            let offset = 0;
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - offset
+            }, 1000);
+            return false;
+        }
+
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 800) {
+                    $('#top').fadeIn(900)
+                } else {
+                    $('#top').fadeOut(700)
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
