@@ -1,8 +1,8 @@
-# <center> Team project </center> <center> for a charitable organization </center>
+# <center> Team project <center> for a charitable organization
 
 ![logo](https://github.com/ssstvch/charity_organization/blob/main/dist/assets/images/logo_for_readme.png)
 
-## <center> [View demo](https://ssstvch.github.io/charity_organization/) </center>
+## <center> [View demo](https://ssstvch.github.io/charity_organization/)
 
 ---
 
